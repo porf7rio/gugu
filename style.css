@@ -1,1 +1,65 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
 
+.container {
+  text-align: center;
+}
+
+.logo {
+  font-size: 64px;
+  font-weight: bold;
+  color: #4285f4;
+  letter-spacing: -3px;
+}
+
+.logo::before {
+  content: "G";
+  color: #4285f4;
+}
+.logo::after {
+  content: "oogle";
+  color: #34a853;
+}
+
+.search-box {
+  margin-top: 20px;
+}
+
+.search-input {
+  width: 500px;
+  max-width: 90%;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: 1px solid #dcdcdc;
+  border-radius: 24px;
+  outline: none;
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+button {
+  margin: 6px;
+  padding: 10px 20px;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #5f6368;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button:hover {
+  border: 1px solid #c6c6c6;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
